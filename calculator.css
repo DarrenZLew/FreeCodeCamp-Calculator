@@ -1,0 +1,108 @@
+body {
+	background: #ECE9E6;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #e0dede, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #e0dede, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+input {
+	background-color: rgb(0, 200, 137);
+	background-color: rgba(0, 200, 137, 0.7);
+	color: rgb(150, 70, 255);
+	font-size: 25px;
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bold;
+	width: 50px;
+	margin: 4px;
+	height: 38px;
+	cursor: pointer;
+	border-radius: 10px;
+	outline: none;
+	transition: all 0.2s ease;
+}
+
+input:hover {
+	background-color: rgb(76, 240, 80);
+	background-color: rgba(76, 240, 80, 0.7);
+}
+
+input:active {
+	background-color: rgb(76, 200, 80);
+ 	background-color: rgba(76, 200, 80, 0.7);
+}
+
+#calculator {
+	width: 300px;
+	padding-top: 1px;
+	margin: 50px auto;
+	height: 340px;
+	background-color: rgb(60, 225, 255);
+	background-color: rgba(60, 225, 255, 0.8);
+	box-shadow: 0 10px rgb(78, 165, 249);
+	box-shadow: 0 10px rgba(78, 165, 249, .8);
+	font-family: 'Orbitron', sans-serif;
+}
+
+#screen {
+	overflow: hidden;
+	letter-spacing: 1.1px;
+	font-size: 30px;
+	color: rgb(255, 255, 0);
+	color: rgba(255, 255, 0, 0.9);
+	padding-right: 10px;
+	margin: 20px;
+	height: 50px;
+	text-align: right;
+	line-height: 50px;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.2);
+	box-shadow: 4px 4px rgb(70, 120, 255) inset;
+	box-shadow: 4px 4px rgba(0, 0, 0, 0.3) inset;
+}
+
+#buttons {
+	height: 222px;
+	position: absolute;
+	width: 250px;
+	padding: 0 25px 25px 25px;
+	display: inline-block;
+}
+
+#ac {
+	position: absolute;
+	width: 174px;
+  background-color: rgb(255, 108, 200);
+	color: rgb(255, 255, 255);
+	color: rgba(255, 255, 255, 0.9);
+}
+
+#ac:hover {
+	background-color: rgb(255, 119, 255);	
+}
+
+#ac:active {
+	background-color: rgb(255, 80, 200);		
+}
+
+#equals {
+	position: absolute;
+	width: 112px;
+	background-color: rgb(255, 103, 255);
+	background-color: rgba(255, 103, 255, 0.6);
+	color: rgb(255, 255, 255);
+	color: rgba(255, 255, 255, 0.9);
+}
+
+#equals:hover {
+	background-color: rgb(255, 119, 255);
+	background-color: rgba(255, 119, 255, 0.7);	
+}
+
+#equals:active {
+	background-color: rgb(255, 60, 255);
+	background-color: rgba(255, 60, 255, 0.6);		
+}
+
+.hide {
+	visibility: hidden;
+}
